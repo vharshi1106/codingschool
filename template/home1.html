@@ -1,0 +1,220 @@
+[9:03 pm, 20/12/2024] Paddhu Python : {% load static %}
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+
+        {% endblock title %}
+    
+
+    </title>
+    {% block css %}
+    <link rel="stylesheet" href="{% static 'data.css' %}">
+
+    {% endblock css %}
+ </head>
+ <body>
+    {% block body %}
+
+    {% endblock body %}
+    <nav>
+        <div id="sub">
+            <a id="name" href="{% url 'myapp:home' %}">Sheryians coding school</a></div>
+        <div id="sub1">
+            <a class="name" href="{% url 'myapp:home' %}">Home</a>
+            <a class="name" href="{% url 'myapp:course' %}"> Course</a>
+            <a class="name" href="{% url 'myapp:bootcamp' %}">Bootcamp(Kodr)</a>
+                [9:03 pm, 20/12/2024] Paddhu Python : <a class="name" href="{% url 'myapp:request' %}">Request callback</a>
+                <a class="name" href="{% url 'myapp:sign' %}" id="sign">signIn</a>
+            </div>
+        </nav>
+        <!-- <section id="content"> -->
+            <div id="content">
+            <h1>We only
+                <span id="col">teach</span>
+                <br>what we are really
+                <br>
+                really
+                <span>good</span>
+                at
+            </h1>
+            <!-- <div id="side-text"> -->
+                <pre >
+                    Get ready to <span id="col">accelerate your 
+                    career</span> with customized courses 
+                    and leave your mark in the teach
+                    industry
+                </pre > 
+                
+                <!-- </div>     -->
+            <a id='course' href="">Check Courses-Make an Impact</a>
+        </div>
+       <br>
+       <br><br>
+        <div id="bottom">
+            <div>
+                <h2>25K+</h2>
+                <p>Students taught</p>
+            </div>
+            <div>
+                <h2>20K+</h2>
+                <p>Instructors</p>
+            </div>
+            <div>
+                <h2>431K+</h2>
+                <p>youtube Subs.</p>
+            </div>
+        </div> 
+        <br><br><br>
+        <div id="midd">
+            <div id="top">
+                we do whatever it takes to help you
+                <br>
+                <span id="col">understand the concepts</span>
+            <br><br><br>
+            
+            <iframe width="614" height="346" src="https://www.youtube.com/embed/60SRAWmMXyc" title="You Are Not Yet Ready | Placements | Open Source" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div id="end">
+                <p>Explore free learning</p>
+            </div>
+        </div>    
+        <section id="cost"> 
+            <div id="top">
+                <p>Courses Offered</p>
+            </div> 
+        </section>
+        <div id="content1">
+            <div class="bott">
+                <img class="image" src="{% static 'images/sher1.jpg' %}" alt="">
+                <div class="con"><h3>Front-End Domination:<p>Create Anything with Code</p></h3>
+                    <p style="width:5vw;height:3vh;background-color: black;border-radius: 3px;">HINDI</p><br>
+                    <span style="color: green;">Black Friday Sale</span>
+                    <div class="left">₹4999 <del>₹9999</del>
+                    <div class="right">50% OFF</div></div>
+                </div>
+                <br>
+                <div style="width:20vw;height: 5vh;background-color: aqua;text-align: center;border-radius: 5px;"><h3>View Details</h3></div>
+            </div>
+            <div class="bott">
+                <image class="image" src="{% static 'images/sher2.jpg' %}" alt="">
+                <div class="con"><h3>Back-End Domination:<p>Create Efficient Back-End</p></h3>
+                <p style="width:5vw;height:3vh;background-color: black;border-radius: 3px;">HINDI</p><br>
+                <span style="color: green;">Limited Time Discount</span>
+                <div class="left">₹5999 <del> ₹11999</del>
+                <div class="right">50% OFF</div></div>
+            </div>
+            <br>
+            <div style="width:20vw;height: 5vh;background-color: aqua;text-align: center;border-radius: 5px;"><h3>View Details</h3></div>
+        </div>
+        <div class="bott">
+            <image class="image" src="{% static 'images/sher2.jpg' %}" alt="">
+            <div class="con"><h3>Back-End Domination:<p>Create Efficient Back-End</p></h3>
+            <p style="width:5vw;height:3vh;background-color: black;border-radius: 3px;">HINDI</p><br>
+            <span style="color: green;">Limited Time Discount</span>
+            <div class="left">₹5999 <del> ₹11999</del>
+            <div class="right">50% OFF</div></div>
+            </div>
+            <br>
+            <div style="width:20vw;height: 5vh;background-color: aqua;text-align: center;border-radius: 5px;"><h3>View Details</h3></div>
+
+        </div>
+        <div class="bott">   
+            <img class="image" src="{% static 'images/sher3.jpg' %}" alt="">
+            <div class="con"><h3>Aptitude& Reasoning for <p>Campus Placements</p> </h3>
+                <p style="width:6vw;height:3vh;background-color: black;border-radius: 3px;">HINGLISH</p><br>
+                <span style="color: green;">Limited Time Discount</span>
+                <div class="left">₹999 <del>₹1500</del>
+                <div class="right">33% OFF</div></div>
+               
+            </div>
+            <br>
+            <div style="width:20vw;height: 5vh;background-color: aqua;text-align: center;border-radius: 5px;"><h3>View Details</h3></div>
+
+        </div> 
+        <div class="bott"> 
+            <img class="image" src="{% static 'images/sher4.jpg' %}" alt=""> 
+            <div class="con"><h3>Java & DSA Domination</h3>
+                <p style="width:6vw;height:3vh;background-color: black;border-radius: 3px;">HINGLISH</p><br>
+                <span style="color: green;">Limited Time Discount</span><br>
+                <div class="left">₹4999 <del>₹9999</del>
+                    <div class="right">50% OFF</div>
+                </div>
+
+            </div>
+            <br>
+            <div style="width:20vw;height: 5vh;background-color: aqua;text-align: center;border-radius: 5px;"><h3>View Details</h3></div>
+
+        </div>
+           
+    </div>    
+    <div id="bott1">
+        <div class="bott"> 
+            <img class="image" src="{% static 'images/sher5.jpg' %}" alt=""> 
+            <div class="con" style="width:20vw;height: 23vh;background-color: gray;border-radius: 5px"><h2>Three.js Domaination</h2>
+                <p style="width:5vw;height:3vh;background-color: black;border-radius: 3px;">HINDI</p><br>
+            <span style="color: green;">Black Friday Sale</span>
+            <div class="left">₹2499 <del>₹3500</del>
+                <div class="right">29% OFF</div></div>
+            </div>
+            <br>
+            <div style="width:20vw;height: 5vh;background-color: aqua;text-align: center;border-radius: 5px;"><h3>View Details</h3></div>
+
+        </div>  
+    </div>
+    <div id="final">
+        <h1 style="    font-size: 200px;
+        margin-left: -200px;
+        margin-top: 50px;"><pre style="font-size: 40px;
+        margin-left: 600px;
+        margin-top: 50px;">Top <span style="color: aqua;">Companies</span> Our Students 
+      Working With</pre></h1>
+        <img src="{% static 'images/company.png' %}" alt="" id="im">
+        <br>
+        <a href="{% url 'myapp:course' %}"><h2 style="width:20vw;height: 5vh;background-color: aqua;border-radius: 5px;margin-left: 40vw;">Explore Courses</h2></a>
+   </div>
+   <hr>
+   <div id="contact">
+    <div id="social">
+        <p>Let's connect with our socials</p>
+        [9:03 pm, 20/12/2024] Paddhu Python : <a href="">in</a>
+        <a href="">lin</a>
+        <a href="">gam</a>
+        <a href="">you</a>
+        <a href="">X</a>
+    </div>
+    
+    <div id="company">
+        <h6 class="a">company</h6>
+        <a class="c" href="">About Us</a>
+        <a class="c" href="">Support</a>
+        <a class="c" href="">Privacy Policy</a>
+        <a class="c" href="">Terms and Condition</a>
+        <a class="c" href="">Pricing & Refund</a>
+        <a class="c" href="">Hire From Us</a>
+        <a class="c" href="">Bug Bounty</a>
+    </div>
+    <div id="community">
+        <h6>COMMUNITY</h6>
+        <a href="">Inertia</a>
+        <a href="">Discord</a>
+    </div>
+    <div id="get">
+        <h5>Get In Touch</h5>
+        <h4>+91 8109161752,</h4>
+        <h4>+91 9691778470</h4>
+        <a href="">hello@sheryians.com</a>
+        <pre>23-B.Indrapuri Sector C,
+            Bhopal(MP),462021
+        </pre>
+    </div>
+   </div>
+   <hr>
+   <footer>
+    <pre style="margin-top: 2vw;margin-left: 40vw;">Copyright @ 2024 Sheryians Pvt.Ltd. 
+        All Rights Reserved</pre>
+   </footer>
+ 
+

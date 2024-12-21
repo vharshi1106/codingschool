@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courses</title>
+    <link rel="stylesheet" href="{% static 'courses.css' %}">
+    <link rel="icon" href="{% static 'lion.jpg' %}">
+</head>
+<body>
+    <nav>
+        <a href="{% url 'app1:home' %}"><img src="{% static 'lion.jpg' %}" style="width:30px;height:30px;">  shreyians coding school</a>
+        <a href="{% url 'app1:home' %}">Home</a>
+        <a href="{% url 'app1:courses' %}">courses</a>
+        <a href="{% url 'app1:bootcamp' %}">bootcamp</a>
+        <a href="{% url 'app1:callback' %}">callback</a>
+        <a href="{% url 'app1:signin' %}"><button style="background-color: aqua;color:black">sign in</button></a>
+    </nav>
+    <pre id="f">
+        We're not a <span style="color:green;">course 
+        factory</span>
+    </pre>
+    <p id="a">We focus on the courses that really help <p>
+    <p style="font-size:30px;margin-top: 100px;margin-left: 80px;">Courses which do work</p>
+    <div id="p">
+        <div>
+            <div><img id="s" alt="" src="https://ik.imagekit.io/sheryians/courses_gif/undefined-maxresdefault_5-AHh9_1Y.jpg"></div>
+            <div>
+                <p style="font-size:25px">Three.js Domination</p>
+                <button style="background-color: dimgray; color:white">HINDI</button>
+                <p style="color:green;margin-top: 50px;">Black Friday Sale</p>
+                <div>
+                <p style="float:left">2499 <span style="text-decoration: line-through;">3500</span></p>
+                <button style="background-color: aliceblue; margin-left:200px;margin-top:15px">29% OFF</button>
+                </div>
+            </div>
+            <div><button style="background-color: aquamarine;color:black;width:300px;height:40px;margin-left:-40px;margin-top:20px;">View Details</button></div>
+        </div>
+        <div>
+            <div><img id="w" alt="" src="https://ik.imagekit.io/sheryians/courses_gif/undefined-javaas_Large_jY0Wighav__6PygWBZQ.jpeg"></div>
+            <div>
+                <p style="font-size:25px">Java&DSADomination</p>
+                <button style="background-color: dimgray; color:white">HINGLISH</button>
+                <p style="color:green;margin-top: 50px;">Limited Time Discount</p>
+                <div>
+                <p style="float:left">4999 <span style="text-decoration: line-through;">9999</span></p>
+                <button style="background-color: aliceblue; margin-left:200px;margin-top:15px">50% OFF</button>
+                </div>
+            </div>
+            <div><button style="background-color: aquamarine;color:black;width:300px;height:40px;margin-left:-40px;margin-top:20px;">View Details</button></div>
+        </div>
+        <div>
+            <div><img id="o" alt="" src="https://ik.imagekit.io/sheryians/courses_gif/undefined-backend_0.5x_Medium_wgHDU-5rPt.png"></div>
+            <div>
+                <p style="font-size:25px">Back-End Domination:Create Efficient Back-End.</p>
+                <button style="background-color: dimgray; color:white">HINDI</button>
+                <p style="color:green;margin-top: 50px;">Limited Time Discount</p>
+                <div>
+                <p style="float:left">5999 <span style="text-decoration: line-through;">11999</span></p>
+                <button style="background-color: aliceblue; margin-left:200px;margin-top:15px">50% OFF</button>
+                </div>
+            </div>
+            <div><button style="background-color: aquamarine;color:black;width:300px;height:40px;margin-left:-40px;margin-top:20px;">View Details</button></div>
+        </div>
+    </div>
+    <div id="l">
+        <div style="margin-left:-260px;">
+            <div><img id="j" alt="" src="https://ik.imagekit.io/sheryians/courses_gif/Front-End_Domination__Create_Anything_with_Code-FRONTENDTHUBNAIL_Wf8WqcNJx.jpg"></div>
+            <div>
+                <p style="font-size:25px">Front-End Domination:Create Anything With Code.</p>
+                <button style="background-color: dimgray; color:white">HINDI</button>
+                <p style="color:green;margin-top: 50px;">Limited Time Discount</p>
+                <div>
+                <p style="float:left">4999 <span style="text-decoration: line-through;">9999</span></p>
+                <button style="background-color: aliceblue; margin-left:200px;margin-top:15px">50% OFF</button>
+                </div>
+            </div>
+            <div><button style="background-color: aquamarine;color:black;width:300px;height:40px;margin-left:-40px;margin-top:20px;">View Details</button></div>
+        </div>
+        <div style="margin-left:-300px;">
+            <div><img id="k" alt="" src="https://ik.imagekit.io/sheryians/courses_gif/undefined-apti_reasoning_45vyAnZ4y.jpeg"></div>
+            <div>
+                <p style="font-size:25px">Aptitude & Reasoning for campus placements.</p>
+                <button style="background-color: dimgray; color:white">HINGLISH</button>
+                <p style="color:green;margin-top: 50px;">Limited Time Discount</p>
+                <div>
+                <p style="float:left">999 <span style="text-decoration: line-through;">1500S</span></p>
+                <button style="background-color: aliceblue; margin-left:200px;margin-top:15px">50% OFF</button>
+                </div>
+            </div>
+            <div><button style="background-color: aquamarine;color:black;width:300px;height:40px;margin-left:-40px;margin-top:20px;">View Details</button></div>
+        </div>
+    </div>
+    <hr style="margin-top:100px">
+    <div id="m">
+        <div>
+            <p>let's connect with our socials</p>
+        </div>
+        <div>
+            <p>Company</p>
+            <p>About Us</p>
+            <p>Support</p>
+            <p>Privacy Policy</p>
+            <p>Terms and Condition</p>
+            <p>Pricing and Refund</p>
+            <p>Hire From Us</p>
+            <p>Bug Bounty</p>
+        </div>
+        <div>
+            <p>Community</p>
+            <p>inertia</p>
+            <p>Discord</p>
+        </div>
+        <div>
+            <p>Get in Touch</p>
+            <p>+91 8109161752</p>
+            <p>+91 9691778470</p>
+            <p>hello@shreyians.com</p>
+            <p>23-B,Indrapuri Sector C,Bhopal(MP),462021</p>
+        </div>
+    </div>
+    <hr style="margin-top: 100px;">
+    <pre style="text-align: center;">
+        copyright@2024 ShreyiansPvt.Ltd.
+        All Rights Reserved.
+    </pre>
+</body>
+</html>

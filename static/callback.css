@@ -1,0 +1,32 @@
+form{
+    background-image: url(http://127.0.0.1:3000/bootcamp/);
+    margin-top:160px;
+    width:400px;
+    height:300px;
+    background-color: rgba(128, 128, 128, 0.551);
+}
+p{
+    color:white;
+    text-align: center;
+}
+pre{
+    color:white;
+    text-align: center;
+}
+label{
+   color:white;
+   margin-left:30px;
+}
+input{
+    background-color: rgb(25, 15, 15);
+    margin-left: 30px;
+    width:320px;
+    color:white;
+}
+
+#a{
+    background-color:aqua;
+    color:black;
+    width:320px;
+    margin-top: 30px;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color:black;
+    color:white;
+}
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color:white;
+    padding:60px;
+}
+.bs{
+    background-color:lightslategrey;
+    color:white;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-left: 120px;
+}
+#m{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}

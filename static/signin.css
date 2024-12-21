@@ -1,0 +1,13 @@
+body{
+    background-color:black;
+    color:white;
+}
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color:white;
+    padding:60px;
+}
+.e{
+    margin-left: 200px;
+}
